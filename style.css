@@ -1,0 +1,261 @@
+:root {
+    --color-primary: #3fb3c2;
+    --color-secondary: #FFF9EB;
+    --color-tertiary: #C4C4C4;
+    --color-button: #65ff81;
+    --color-button-hover: #be6bdf;
+    --color-text: #444444;
+    --color-white: #FFFFFF;
+
+    --fontfamily-primary: "Lakki Reddy", serif;;
+    --fontfamily-secondary: "Honk", serif;
+}
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+/* Banner */
+.header-banner {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0;
+}
+.header-banner img:first-child {
+    margin-right: 80px; /* Separar la primera imagen (a la izquierda) */
+}
+
+.header-banner img:last-child {
+    margin-left: 80px; /* Separar la segunda imagen (a la derecha) */
+}
+
+
+/* Sección de entrada */
+.input-section {
+    flex: 60%;
+    background-color: var(--color-secondary);
+    border: 1px solid #000;
+    border-radius: 64px 64px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Títulos */
+
+.main-title {
+    font-weight: 900;
+    font-family: var(--fontfamily-secondary);
+    font-size: 48px;
+    word-spacing: 8px; /* Aumenta el espacio entre palabras */    
+}
+
+/* Animación zigzagueante para cada letra */
+@keyframes zigzag {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(30px, 30px);
+    }
+    50% {
+        transform: translate(0, 60px);
+    }
+    75% {
+        transform: translate(-30px, 30px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.zigzag {
+    display: inline-block; /* Asegura que cada letra esté en su propia línea para animarse */
+    animation: zigzag 6s infinite;
+    animation-delay: calc(0.3s * var(--index)); /* Retraso para cada letra */
+}
+.zigzag.large {
+    font-size: 80px; /* Tamaño mayor */
+}
+
+/* Opcional: para definir el retraso dinámicamente si usas JavaScript */
+
+  
+.section-title {
+    font-family: var(--fontfamily-primary);
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Contenedores de entrada y botón */
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    gap: 10px; /* Espacio entre los elementos */
+}
+
+.input-name  {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #42e7fd;
+    border-radius: 0 25px 0 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+}
+.input-contact{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #42e7fd;
+    border-radius:  25px 0 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+}
+
+
+/* Estilos de entrada de texto */
+.input-title {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-right: none;
+    border-radius: 25px 0 0 25px;
+    font-family: var(--fontfamily-secondary);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos de botón */
+
+button {
+    padding: 15px 30px;
+    font-family: var(--fontfamily-secondary);
+    font-size: 20px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.button-add {
+    background-color: var(--color-tertiary);
+    color: var(--color-text);
+    border-radius: 0 25px 25px 0;
+    font-family: var(--fontfamily-primary);
+}
+
+.button-add:hover {
+    background-color: #b0f796;
+}
+
+
+.button-container {
+    width: 300px;
+    justify-content: center;
+    margin-bottom: 10px; /* Separación entre botones */
+}
+
+/* Botón de sortear título */
+.button-draw {
+    display: flex;
+    align-items: center;
+    font-family: var(--fontfamily-secondary);
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 25px;
+}
+
+/* boton de resultado */
+.button-show-results  {
+    font-family: var(--fontfamily-primary); /* Cambia 'Arial' por cualquier fuente que prefieras */
+    margin-bottom: 10px; /* Separación entre botones */
+}
+.button-send-whatsapp{
+    margin-top: 10px; /* Separación entre botones */
+    font-family: var(--fontfamily-primary); /* Cambia 'Arial' por cualquier fuente que prefieras */
+}
+
+/* Botón de nuevo sorteo */
+.button-new-draw {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    background-color:var(--color-primary);
+    font-size: 25px;
+    margin-top: 10px; /* Separación con el botón de sortear */
+}
+
+.button-draw img {
+    margin-right:10px;
+}
+
+.button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    color: var(--color-text);
+    font-family: var(--fontfamily-primary);
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.result-list {
+    margin-top: 15px;
+    color: #163d16;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.opciones {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.opciones button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.opciones button:hover {
+    background-color: #45a049;
+}
