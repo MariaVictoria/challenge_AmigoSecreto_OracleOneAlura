@@ -86,7 +86,10 @@ Si quieres contribuir a este proyecto:
 
 ---
 
+María Victoria 
 
-![Logo](https://github.com/MariaVictoria/challenge_AmigoSecreto_OracleOneAlura/blob/main/assets/minilogoMV.jpg)
+---
+
+![Logo](https://github.com/MariaVictoria/challenge_AmigoSecreto_OracleOneAlura/blob/main/assets/logo/minilogoMV.jpg)
 
 ---
