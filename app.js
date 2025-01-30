@@ -1,9 +1,9 @@
     /* Con esta función manejamos el subtítulo */
-    function asignarTextoElemeto() {
+    function asignarTextoElemento() {
         let subtitulo = document.querySelector('h2'); // Selecciona el primer elemento <h2> en el documento
         subtitulo.innerHTML = 'Escribe el nombre de tus amigos'; // Cambia el contenido del <h2> a "Escribe el nombre de tus amigos"
     }
-    asignarTextoElemeto(); // Llama a la función para ejecutar el cambio de subtítulo
+    asignarTextoElemento(); // Llama a la función para ejecutar el cambio de subtítulo
 
     /* Con esta función manejamos el movimiento del título */
     document.querySelectorAll('.zigzag').forEach((span, index) => {
@@ -42,6 +42,34 @@
         });
     }
 
+    // Función para eliminar un amigo de la lista
+    function eliminarAmigo() {
+        const amigoInput = document.getElementById('amigo'); // Obtiene el valor del campo de entrada de amigo
+        const nombre = amigoInput.value.trim(); // Elimina los espacios en blanco antes y después del nombre
+
+        if (nombre === "") { // Si el nombre está vacío
+            alert("Por favor, ingresa un nombre válido."); // Muestra un mensaje de alerta
+            return; // Sale de la función sin hacer nada
+        }
+
+        const index = listaAmigos.indexOf(nombre); // Busca el índice del amigo en la lista
+
+        if (index > -1) { // Si el amigo está en la lista
+            listaAmigos.splice(index, 1); // Elimina el amigo de la lista
+            mostrarListaAmigos(); // Actualiza la lista mostrada en la página
+            amigoInput.value = ''; // Limpia el campo de entrada
+            amigoInput.focus(); // Reenfoca el campo de entrada
+        } else { // Si el amigo no está en la lista
+            alert("El amigo no está en la lista."); // Muestra un mensaje de alerta
+        }
+    }
+
+    // funcion para deshabilitar el boton de sortear una vez sorteado
+    function deshabilitarSortear() {
+        const buttonDraw = document.getElementById('button-draw');
+        buttonDraw.disabled = true; // Deshabilita el botón de sortear
+    }
+
     // Función para realizar el sorteo
     function sortearAmigo() {
         // Verifica si hay al menos 2 amigos en la lista
@@ -56,11 +84,10 @@
             return; // Sale de la función sin hacer nada
         }
     
-        // Deshabilita el botón de sortear inmediatamente después de hacer clic
-        const buttonDraw = document.getElementById('button-draw');
-        buttonDraw.disabled = true; // Deshabilita el botón de sortear
-    
+        deshabilitarSortear(); // Deshabilita el botón de sortear
+        
         // Elige un amigo aleatorio
+        
         let indiceAleatorio = Math.floor(Math.random() * listaAmigos.length); // Genera un índice aleatorio
         let amigoSorteado = listaAmigos[indiceAleatorio]; // Obtiene el amigo en ese índice
     
