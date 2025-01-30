@@ -259,3 +259,186 @@ ul {
 .opciones button:hover {
     background-color: #45a049;
 }
+
+
+/*Responsive*/
+/* Estilo general para móviles */
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
+        background-color: #f9f9f9;
+    }
+
+    .main-title {
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 20px;
+        line-height: 1.2;
+        color: var(--primary-color);
+    }
+
+    .header-banner {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .header-banner img {
+        width: 60px;
+        height: auto;
+    }
+
+    .input-section {
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 24px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .input-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+
+    .input-wrapper input {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid var(--secondary-color);
+        border-radius: 8px;
+        font-size: 16px;
+    }
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px 20px;
+        background-color: var(--primary-color);
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: var(--primary-hover-color);
+    }
+}
+
+/*Responsive*/
+/* Estilo general para móviles */
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
+        background-color: var(--color-primary);
+    }
+
+    .main-title {
+        font-size: 30px; /* Ajuste para tamaño más pequeño */
+        text-align: center;
+        margin-bottom: 20px;
+        line-height: 1.2;
+        color: var(--color-primary);
+    }
+
+    .header-banner {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .header-banner img {
+        width: 60px;
+        height: auto;
+    }
+
+    .input-section {
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
+        background-color: var(--color-secondary);
+        border-radius: 24px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .input-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+
+    .input-wrapper input {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid var(--color-tertiary);
+        border-radius: 8px;
+        font-size: 16px;
+    }
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px 20px;
+        background-color: var(--color-primary);
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: var(--color-button-hover);
+    }
+
+    /* Ajuste para la animación zigzagueante */
+    .zigzag.large {
+        font-size: 50px; /* Ajuste de tamaño para pantallas más pequeñas */
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .button-add {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+
+    .button-draw {
+        font-size: 20px;
+        padding: 12px 25px;
+    }
+
+    .button-show-results, .button-send-whatsapp, .button-new-draw {
+        font-size: 18px;
+        padding: 10px 25px;
+    }
+}
