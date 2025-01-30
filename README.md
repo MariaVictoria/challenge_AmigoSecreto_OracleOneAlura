@@ -86,8 +86,6 @@ Si quieres contribuir a este proyecto:
 
 ---
 
-## 📜 Licencia
 
-Este proyecto está bajo la Licencia MIT.
-
+![Logo](https://github.com/MariaVictoria/challenge_AmigoSecreto_OracleOneAlura/blob/main/assets/minilogoAIVictoria.jpg)
 ---
