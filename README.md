@@ -93,3 +93,6 @@ María Victoria
 ![Logo](https://github.com/MariaVictoria/challenge_AmigoSecreto_OracleOneAlura/blob/main/assets/logo/minilogoMV.jpg)
 
 ---
+
+
+[Insignia](https://raw.githubusercontent.com/MariaVictoria/challenge_AmigoSecreto_OracleOneAlura/refs/heads/main/assets/insignia/insignia.webp)
