@@ -1,7 +1,7 @@
     /* Con esta función manejamos el subtítulo */
     function asignarTextoElemento() {
         let subtitulo = document.querySelector('h2'); // Selecciona el primer elemento <h2> en el documento
-        subtitulo.innerHTML = 'Escribe el nombre de tus amigos'; // Cambia el contenido del <h2> a "Escribe el nombre de tus amigos"
+        subtitulo.innerHTML = 'Escribe el nombre de tus amigos, para descubrir quién es el amigo 🤫 ! '; // Cambia el contenido del <h2> a "Escribe el nombre de tus amigos"
     }
     asignarTextoElemento(); // Llama a la función para ejecutar el cambio de subtítulo
 
