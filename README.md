@@ -113,10 +113,10 @@ Aplicá los cambios y enviá un pull request.
 
 ---
 
-👩‍💻 Sobre mí
+## 👩‍💻 Sobre mí
 Soy Técnica en Innovación con Tecnologías 4.0. Este proyecto es una muestra de cómo aplico mis conocimientos para resolver problemas reales y generar valor desde el desarrollo web y la automatización.
 
-📫 Contacto
+## 📫 Contacto
 GitHub: [github.com/MariaVictoria](https://github.com/MariaVictoria)
 
 ---
