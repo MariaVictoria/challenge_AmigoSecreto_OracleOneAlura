@@ -1,26 +1,27 @@
 
----
+# 🎉 Proyecto: Amigo Secreto
 
-# Proyecto "Amigo Secreto" 🎉
-
-El proyecto **Amigo Secreto** es una aplicación web interactiva diseñada para realizar sorteos entre amigos de manera simple y divertida. Este proyecto permite agregar nombres a una lista y sortear aleatoriamente el "amigo secreto" para cualquier evento.
-
-## 🚀 Funcionalidades
-
-- **Agregar amigos**: Permite a los usuarios añadir nombres a una lista.
-- **Mostrar lista**: Visualiza los nombres agregados en tiempo real.
-- **Sorteo aleatorio**: Realiza un sorteo para seleccionar al amigo secreto de forma justa.
-- **Reiniciar sorteo**: Opción para realizar un nuevo sorteo desde cero.
-- **Interfaz dinámica**: Utiliza efectos para una mejor experiencia de usuario.
+Aplicación web interactiva para realizar sorteos de *amigo secreto* de forma fácil, justa y divertida. Ideal para reuniones, eventos y celebraciones, esta herramienta permite gestionar participantes y ejecutar sorteos aleatorios con una interfaz amigable.
 
 ---
 
-## 🛠️ Instalación y configuración
+## 🎯 ¿Qué hace esta aplicación?
+
+- ➕ **Agregar participantes** a una lista dinámica.  
+- 📋 **Visualizar nombres** agregados en tiempo real.  
+- 🔀 **Realizar sorteos aleatorios** de forma justa y segura.  
+- 🔄 **Reiniciar el sorteo** en cualquier momento.  
+- 💫 **Interfaz animada** para una experiencia agradable.
+
+---
+
+## ⚙️ ¿Cómo usarla?
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone https://github.com/tuusuario/amigo-secreto.git
-   cd amigo-secreto
+   git clone https://github.com/MariaVictoria/challenge_AmigoSecreto_OracleOneAlura.git
+   cd challenge_AmigoSecreto_OracleOneAlura
+
    ```
 
 2. **Abrir el archivo HTML**: 
@@ -30,29 +31,33 @@ El proyecto **Amigo Secreto** es una aplicación web interactiva diseñada para 
 
 ---
 
-## 📋 Instrucciones de uso
+## 📋 Guía de uso
 
-1. **Agregar amigos**:
-   - Escribe un nombre en el campo de texto y haz clic en el botón **Agregar**.
-   - La lista de nombres aparecerá debajo del campo.
+1. 👤 Agregar amigos
+Escribí un nombre en el campo de entrada.
 
-2. **Realizar el sorteo**:
-   - Asegúrate de tener al menos dos nombres en la lista.
-   - Haz clic en el botón **Sortear Amigo Secreto**.
-   - El resultado se mostrará en la pantalla.
+Hacé clic en Agregar.
 
-3. **Nuevo sorteo**:
-   - Haz clic en el botón **Nuevo Sorteo** para comenzar de nuevo.
+El nombre se mostrará en la lista automáticamente.
+
+2. 🎲 Realizar el sorteo
+Asegurate de tener al menos dos participantes.
+
+Hacé clic en Sortear Amigo Secreto.
+
+Verás los resultados en pantalla.
+
+3. ♻️ Reiniciar
+Hacé clic en Nuevo Sorteo para comenzar de nuevo.
+
+
 
 ---
 
 ## 🌟 Capturas de pantalla
 
 ### Agregar nombres
-![Agregar Nombres](https://github.com/MariaVictoria/challenge_AmigoSecreto_OracleOneAlura/blob/main/assets/capturas/Captura1.jpg)
-![Agregar Nombres](https://github.com/MariaVictoria/challenge_AmigoSecreto_OracleOneAlura/blob/main/assets/capturas/Captura2.jpg)
 ![Agregar Nombres](https://github.com/MariaVictoria/challenge_AmigoSecreto_OracleOneAlura/blob/main/assets/capturas/Captura3.jpg)
-![Agregar Nombres](https://github.com/MariaVictoria/challenge_AmigoSecreto_OracleOneAlura/blob/main/assets/capturas/Captura4.jpg)
 
 ### Resultado del sorteo
 
@@ -60,6 +65,11 @@ El proyecto **Amigo Secreto** es una aplicación web interactiva diseñada para 
 ---
 
 ## 📂 Estructura del proyecto
+
+
+---
+
+🛠️ Tecnologías utilizadas
 
 - **HTML**: Contiene la estructura de la interfaz.
 - **CSS**: Diseña la apariencia y efectos visuales.
@@ -69,30 +79,33 @@ El proyecto **Amigo Secreto** es una aplicación web interactiva diseñada para 
 
 ## 🐛 Posibles problemas y soluciones
 
-1. **No se puede realizar el sorteo**:
-   - Asegúrate de haber agregado al menos dos nombres a la lista.
+🐞 Problemas comunes y soluciones
+Problema	Solución
 
-2. **No aparece el resultado del sorteo**:
-   - Revisa que no hayas realizado un sorteo previo sin reiniciarlo.
+* ❌ No se puede realizar el sorteo     -->	Asegurate de haber agregado al menos dos nombres.
+* ❌ No aparece el resultado	          -->  Verificá que no hayas hecho un sorteo anterior sin reiniciar.
+* ❌ La lista no se actualiza	          --> Confirmá que hiciste clic en Agregar.
+---
+
+## 🤝 Contribuciones
+¡Las contribuciones son bienvenidas!
+
+Realizá un fork del repositorio.
+
+Creá una nueva rama (git checkout -b mejora-feature).
+
+Aplicá los cambios y enviá un pull request.
 
 ---
 
-## 👩‍💻 Contribuciones
+👩‍💻 Sobre mí
+Soy Técnica en Innovación con Tecnologías 4.0. Este proyecto es una muestra de cómo aplico mis conocimientos para resolver problemas reales y generar valor desde el desarrollo web y la automatización.
 
-Si quieres contribuir a este proyecto:
-1. Haz un fork del repositorio.
-2. Realiza los cambios en una nueva rama.
-3. Envía un pull request.
-
----
-
-María Victoria 
-
----
-
-![Logo](https://github.com/MariaVictoria/challenge_AmigoSecreto_OracleOneAlura/blob/main/assets/logo/minilogoMV.jpg)
+📫 Contacto
+GitHub: [github.com/MariaVictoria](https://github.com/MariaVictoria)
 
 ---
 
 
-[Insignia](https://raw.githubusercontent.com/MariaVictoria/challenge_AmigoSecreto_OracleOneAlura/refs/heads/main/assets/insignia/insignia.webp)
+[Insignia](https://raw.githubusercontent.com/MariaVictoria/challenge_AmigoSecreto_OracleOneAlura/refs/heads/main/assets/insignia/insignia.webp) <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/8d53de4f-9d5d-4fe0-b41e-389682a902c0" />
+
