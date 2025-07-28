@@ -66,6 +66,21 @@ Hacé clic en Nuevo Sorteo para comenzar de nuevo.
 
 ## 📂 Estructura del proyecto
 
+```
+
+challenge_AmigoSecreto_OracleOneAlura
+├── assets/ # Recursos multimedia
+│ ├── capturas/ # Capturas de pantalla del proyecto
+│ ├── favicon/ # Íconos del navegador
+│ ├── img/ # Imágenes generales utilizadas en la app
+│ ├── insignia/ # Insignia del desafío Oracle + Alura
+│ └── logo/ # Logo personal del proyecto
+├── app.js # Lógica principal del sorteo (JavaScript)
+├── index.html # Estructura de la interfaz web
+├── style.css # Estilos y animaciones visuales
+└── README.md # Documentación del proyecto
+
+```
 
 ---
 
